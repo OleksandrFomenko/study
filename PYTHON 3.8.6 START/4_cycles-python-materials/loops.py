@@ -29,9 +29,11 @@
 #     string_new += letter
 # print(string_new)
 
-back_counter = 99
-end_value = 0
-while back_counter > end_value:
-    if back_counter % 5 == 0:
-        print(back_counter)
-    back_counter -= 1
+# back_counter = 99
+# end_value = 0
+# while back_counter > end_value:
+#     if back_counter % 5 == 0:
+#         print(back_counter)
+#     back_counter -= 1
+
+for i in range(0, 11, 2): print(i)
